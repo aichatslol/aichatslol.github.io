@@ -2,32 +2,37 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    padding: 20px; /* Adding padding to ensure content doesn't touch the edges */
     background-color: #f4f4f9;
+    color: #333;
 }
+
 .container {
-    text-align: center;
+    max-width: 800px; /* Restricting maximum width for better readability */
+    margin: auto; /* Centers the container */
+    padding: 20px;
     background: white;
-    padding: 2em;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-h1 {
+
+h1, h2 {
     color: #333;
+    text-align: left; /* Aligning headers to the left */
 }
-p {
-    color: #666;
+
+p, li, ul, ol {
+    text-align: left; /* Aligning text to the left */
+    line-height: 1.6; /* Improving line spacing for better readability */
 }
+
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    padding: 1em;
+    text-align: center; /* Center aligning footer content */
+    padding: 1em 0; /* Adding vertical padding to the footer */
     background-color: #e2e2e2;
-    color: #333;
+    margin-top: 20px; /* Adding space between content and footer */
+}
+
+ul, ol {
+    padding-left: 20px; /* Adding indent to lists */
 }
