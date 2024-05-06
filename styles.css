@@ -21,11 +21,21 @@ header {
 header h1 {
     text-align: center; /* Specifically ensures headers and paragraphs in the header are centered */
     margin: 0 auto; /* Centers the text blocks within the header */
-    font-size: 1.0em; /* Larger size for the main title */
+    font-size: 2.5em; /* Larger size for the main title */
     color: #225588; /* A distinct color for the main title */
     margin-bottom: 0.5em; /* Adds spacing below the main title */
 
 }
+
+header p {
+    text-align: center; /* Specifically ensures headers and paragraphs in the header are centered */
+    margin: 0 auto; /* Centers the text blocks within the header */
+    font-size: 1.0em; /* Larger size for the main title */
+    /*color: #225588; /* A distinct color for the main title */
+    margin-bottom: 0.5em; /* Adds spacing below the main title */
+
+}
+
 
 body {
     display: flex;
