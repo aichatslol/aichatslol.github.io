@@ -21,6 +21,10 @@ header {
 header h1, header p {
     text-align: center; /* Specifically ensures headers and paragraphs in the header are centered */
     margin: 0 auto; /* Centers the text blocks within the header */
+    font-size: 2.5em; /* Larger size for the main title */
+    color: #225588; /* A distinct color for the main title */
+    margin-bottom: 0.5em; /* Adds spacing below the main title */
+
 }
 
 body {
@@ -41,6 +45,13 @@ body {
     border-radius: 12px; /* More pronounced rounded corners */
     box-shadow: 0 10px 20px rgba(0,0,0,0.15); /* Softer shadow for depth */
     border: 1px solid #dedede; /* Subtle border for refined edges */
+}
+
+/* Styles for sub-headings within the container */
+.container h2 {
+    font-size: 1.8em; /* Smaller than the main title */
+    color: #333; /* Standard color matching other text */
+    text-align: left; /* Left aligns sub-headers for section differentiation */
 }
 
 h1, h2 {
