@@ -1,54 +1,71 @@
 /* styles.css */
-/* Set the height for HTML and body to cover the full height of the viewport */
-
-/* Use a flexbox layout for the body to manage the content and footer positioning */
+/* Enhanced design for a more sophisticated and visually appealing layout */
 
 html, body {
     height: 100%;
-    margin: 0; /* Removing default margin */
-    padding: 0; /* Removing default padding */
+    margin: 0;
+    padding: 0;
+    background: #f0f0f3; /* Soft gray background for less stark contrast */
+    color: #333;
+    font-family: 'Segoe UI', Arial, sans-serif; /* Modern, clean font style */
 }
 
 body {
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    justify-content: space-between; /* Distribute space between content and footer */
-    font-family: 'Arial', sans-serif;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0;
-    padding: 20px; /* Adding padding to ensure content doesn't touch the edges */
-    background-color: #f4f4f9;
-    color: #333;
+    padding: 20px;
+    background-color: transparent;
 }
 
 .container {
-    flex: 1; /* Allows the container to expand and fill available space, pushing the footer down */
+    flex: 1;
     padding: 20px;
     max-width: 800px;
-    margin: auto; /* Centers the container in the middle of the page */
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 12px; /* More pronounced rounded corners */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15); /* Softer shadow for depth */
+    border: 1px solid #dedede; /* Subtle border for refined edges */
 }
 
-
-
 h1, h2 {
-    color: #333;
-    text-align: left; /* Aligning headers to the left */
+    font-size: 2.5em; /* Larger, more prominent headings */
+    color: #225588; /* Richer, more engaging color */
+    text-align: center; /* Center-aligned headers for a balanced look */
 }
 
 p, li, ul, ol {
-    text-align: left; /* Aligning text to the left */
-    line-height: 1.6; /* Improving line spacing for better readability */
+    font-size: 1.1em; /* Slightly larger text for readability */
+    line-height: 1.8; /* Increased line spacing for elegance */
+    text-align: left;
 }
 
 footer {
-    text-align: center; /* Center aligning footer content */
-    padding: 1em 0; /* Adding vertical padding to the footer */
-    background-color: #e2e2e2;
+    text-align: center;
+    padding: 1em 0;
+    background-color: #404040; /* Darker footer for visual separation */
+    color: #ffffff; /* Contrast text color for better readability */
     width: 100%;
+    font-size: 0.9em;
+}
+
+a {
+    color: #225588; /* Matching link color to heading for consistency */
+    text-decoration: none; /* No underline for a cleaner look */
+    transition: color 0.3s; /* Smooth transition for hover effects */
+}
+
+a:hover {
+    color: #ff6347; /* Bright color on hover for attractiveness */
 }
 
 ul, ol {
-    padding-left: 20px; /* Adding indent to lists */
+    padding-left: 20px;
+}
+
+/* Additional global padding and margin resets for a cleaner layout */
+* {
+    box-sizing: border-box;
 }
