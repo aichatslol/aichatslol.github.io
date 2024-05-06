@@ -10,6 +10,13 @@ html, body {
     font-family: 'Segoe UI', Arial, sans-serif; /* Modern, clean font style */
 }
 
+/* Header styles for centering text */
+header {
+    text-align: center; /* Ensures text is centered */
+    padding: 20px; /* Provides spacing around the text */
+    background-color: #f4f4f9; /* Light background color for distinction */
+}
+
 body {
     display: flex;
     flex-direction: column;
