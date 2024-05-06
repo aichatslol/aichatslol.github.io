@@ -1,48 +1,35 @@
-/* styles.css */
-/* Enhanced design for a more sophisticated and visually appealing layout */
-
+/* Enhanced design for a sophisticated and visually appealing layout */
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: #f0f0f3; /* Soft gray background for less stark contrast */
-    color: #333;
-    font-family: 'Segoe UI', Arial, sans-serif; /* Modern, clean font style */
+    background: #f0f0f3; /* Soft gray background */
+    font-family: 'Segoe UI', Arial, sans-serif; /* Modern, clean font */
 }
 
-/* Header styles for centering text */
 header {
-    text-align: center; /* Ensures text is centered */
-    padding: 20px; /* Provides spacing around the text */
-    background-color: #f4f4f9; /* Light background color for distinction */
-    width: 100%; /* Ensures the header spans the full width */
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f9;
 }
 
 header h1 {
-    text-align: center; /* Specifically ensures headers and paragraphs in the header are centered */
-    margin: 0 auto; /* Centers the text blocks within the header */
-    font-size: 2.5em; /* Larger size for the main title */
-    color: #225588; /* A distinct color for the main title */
-    margin-bottom: 0.5em; /* Adds spacing below the main title */
-
+    font-size: 2.5em;
+    color: #225588;
+    margin: 0 auto;
+    margin-bottom: 0.5em;
 }
 
 header p {
-    text-align: center; /* Specifically ensures headers and paragraphs in the header are centered */
-    margin: 0 auto; /* Centers the text blocks within the header */
-    font-size: 1.0em; /* Larger size for the main title */
-    /*color: #225588; /* A distinct color for the main title */
-    margin-bottom: 0.5em; /* Adds spacing below the main title */
-
+    font-size: 1em;
+    margin: 0 auto;
+    margin-bottom: 0.5em;
 }
-
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0;
-    padding: 20px;
     background-color: transparent;
 }
 
@@ -52,54 +39,52 @@ body {
     max-width: 800px;
     margin: auto;
     background-color: #ffffff;
-    border-radius: 12px; /* More pronounced rounded corners */
-    box-shadow: 0 10px 20px rgba(0,0,0,0.15); /* Softer shadow for depth */
-    border: 1px solid #dedede; /* Subtle border for refined edges */
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    border: 1px solid #dedede;
 }
 
-/* Styles for sub-headings within the container */
 .container h2 {
-    font-size: 1.8em; /* Smaller than the main title */
-    color: #333; /* Standard color matching other text */
-    text-align: left; /* Left aligns sub-headers for section differentiation */
+    font-size: 1.8em;
+    color: #333;
+    text-align: left;
 }
 
 h1, h2 {
-    font-size: 2.5em; /* Larger, more prominent headings */
-    color: #225588; /* Richer, more engaging color */
-    text-align: center; /* Center-aligned headers for a balanced look */
+    font-size: 2.5em;
+    color: #225588;
+    text-align: center;
 }
 
 p, li, ul, ol {
-    font-size: 1.1em; /* Slightly larger text for readability */
-    line-height: 1.8; /* Increased line spacing for elegance */
+    font-size: 1.1em;
+    line-height: 1.8;
     text-align: left;
 }
 
 footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #404040; /* Darker footer for visual separation */
-    color: #ffffff; /* Contrast text color for better readability */
+    background-color: #404040;
+    color: #ffffff;
     width: 100%;
     font-size: 0.9em;
 }
 
 a {
-    color: #225588; /* Matching link color to heading for consistency */
-    text-decoration: none; /* No underline for a cleaner look */
-    transition: color 0.3s; /* Smooth transition for hover effects */
+    color: #225588;
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 a:hover {
-    color: #ff6347; /* Bright color on hover for attractiveness */
+    color: #ff6347;
 }
 
 ul, ol {
     padding-left: 20px;
 }
 
-/* Additional global padding and margin resets for a cleaner layout */
 * {
     box-sizing: border-box;
 }
