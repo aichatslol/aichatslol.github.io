@@ -71,8 +71,8 @@ h1, h2 {
 }
 
 p, li, ul, ol {
-    font-size: 1.1em; /* Slightly larger text for readability */
-    line-height: 1.8; /* Increased line spacing for elegance */
+    /* font-size: 1.1em; /* Slightly larger text for readability */
+    /* line-height: 1.8; /* Increased line spacing for elegance */
     text-align: left;
 }
 
